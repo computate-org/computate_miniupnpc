@@ -13,4 +13,4 @@ APP_README: "{{ APP_SRC }}/README"
 APP_OPT: "{{ APP_PREFIX }}/opt"
 APP_REPO_SSH: git@github.com:miniupnp/miniupnp.git
 APP_REPO_HTTPS: "{{ APP_REPO_SSH | regex_replace('git@([^:]+):', 'https://\\1/') }}"
-APP_TAG: master
+APP_TAG: miniupnpc_2_0
